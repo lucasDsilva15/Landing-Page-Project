@@ -11,6 +11,7 @@
 header {
  display: flex;
  align-items: center;
+ margin-bottom: 55px;
 
 }
 .menuLinks {
@@ -79,9 +80,9 @@ li:hover{
     cursor: pointer;
     color: #000000;
     font-family: 'Poppins', sans-serif;
-    font-size: 15px;
+    font-size: 22px;
     font-weight: 700;
-    padding: 12px 20px;
+    padding: 17px 40px;
     margin: 10px;
     text-decoration: none;
     box-shadow: 1px 4px 12px rgba(94,28,68,.15);
@@ -100,17 +101,35 @@ li:hover{
 }
 .contentContainer{
     display: flex;
-    width: 47%;
+    width: 97%;
     height: fit-content;
     margin: 10px;
     padding: 3%;
-    flex-direction: column;
+    flex-direction: row;
 }
 .mainHeader{
-    font-size: 70px;
-    padding-bottom: 20px;
+    font-size: 90px;
+    padding-bottom: 40px;
     color: white;
 }
 .contentHeader{
     color: white;
+    font-size: 35px;
+    padding-top: 40px;
+    padding-bottom: 50px;
 }
+#canImg{
+display: flex;
+width: 60%;
+min-width: 1000px;
+justify-content:center;
+position: relative;
+bottom: 100px;
+}
+.leftsidecontentcontainer{
+width: 45%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
